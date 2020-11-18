@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1A41E8912031E22300A8F70C /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A41E8902031E22300A8F70C /* MediaType.swift */; };
-		1A65DDCC1DA73F8E0033C277 /* MenuItemKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A65DDCB1DA73F8D0033C277 /* MenuItemKit.framework */; };
-		1A65DDD21DA744190033C277 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A65DDD01DA744190033C277 /* Realm.framework */; };
-		1A65DDD31DA744190033C277 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A65DDD11DA744190033C277 /* RealmSwift.framework */; };
 		1A65DDD51DA744410033C277 /* QuoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A65DDD41DA744410033C277 /* QuoteImage.swift */; };
 		1A65DDD71DA7450A0033C277 /* FolioReaderQuoteShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A65DDD61DA7450A0033C277 /* FolioReaderQuoteShare.swift */; };
 		1A958F911D397BE900D56699 /* FRBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A958F051D397BE900D56699 /* FRBook.swift */; };
@@ -97,21 +94,16 @@
 		3A27F0C21FD9C25C00D84A57 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A958F241D397BE900D56699 /* PageViewController.swift */; };
 		3A27F0C31FD9C25C00D84A57 /* QuoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A65DDD41DA744410033C277 /* QuoteImage.swift */; };
 		3A27F0C41FD9C25C00D84A57 /* ScrollScrubber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A958F901D397BE900D56699 /* ScrollScrubber.swift */; };
-		3A27F0C51FD9C31E00D84A57 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A65DDD01DA744190033C277 /* Realm.framework */; };
-		3A27F0C61FD9C31E00D84A57 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A65DDD11DA744190033C277 /* RealmSwift.framework */; };
 		3A27F0C71FD9C33A00D84A57 /* Highlight+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A958F211D397BE900D56699 /* Highlight+Helper.swift */; };
 		3A27F0C81FD9C33A00D84A57 /* Highlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A958F231D397BE900D56699 /* Highlight.swift */; };
 		3AD5EEB91D9433C100E42810 /* FolioReaderWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5EEB81D9433C100E42810 /* FolioReaderWebView.swift */; };
+		5F62E45FE3AA341B23237E07 /* Pods_FolioReaderKit_FolioReaderKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A000601CAD1B08947DBDF80F /* Pods_FolioReaderKit_FolioReaderKitTests.framework */; };
 		B0D6990F1D035FA2003B4CCD /* FolioReaderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D6990E1D035FA2003B4CCD /* FolioReaderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0D699161D035FA2003B4CCD /* FolioReaderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D6990B1D035FA2003B4CCD /* FolioReaderKit.framework */; };
 		B0D6991B1D035FA2003B4CCD /* FolioReaderKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6991A1D035FA2003B4CCD /* FolioReaderKitTests.swift */; };
 		B0D69CC81D0387F7003B4CCD /* HADiscreteSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D69C441D0387F7003B4CCD /* HADiscreteSlider.swift */; };
 		B0D69CC91D0387F7003B4CCD /* SMSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D69C461D0387F7003B4CCD /* SMSegment.swift */; };
 		B0D69CCA1D0387F7003B4CCD /* SMSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D69C471D0387F7003B4CCD /* SMSegmentView.swift */; };
-		B0D69CD11D0388EF003B4CCD /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D69CCB1D0388EF003B4CCD /* AEXML.framework */; };
-		B0D69CD21D0388EF003B4CCD /* FontBlaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D69CCC1D0388EF003B4CCD /* FontBlaster.framework */; };
-		B0D69CD51D0388EF003B4CCD /* ZFDragableModalTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D69CCF1D0388EF003B4CCD /* ZFDragableModalTransition.framework */; };
-		B0D69CD61D0388EF003B4CCD /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D69CD01D0388EF003B4CCD /* ZipArchive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,11 +116,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		799BEA3D25659F6A006A8747 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1A41E8902031E22300A8F70C /* MediaType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
-		1A65DDCB1DA73F8D0033C277 /* MenuItemKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MenuItemKit.framework; path = Carthage/Build/iOS/MenuItemKit.framework; sourceTree = "<group>"; };
-		1A65DDD01DA744190033C277 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
-		1A65DDD11DA744190033C277 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		1A5A2118839672562375AA85 /* Pods_FolioReaderKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FolioReaderKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A65DDD41DA744410033C277 /* QuoteImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteImage.swift; sourceTree = "<group>"; };
 		1A65DDD61DA7450A0033C277 /* FolioReaderQuoteShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolioReaderQuoteShare.swift; sourceTree = "<group>"; };
 		1A958F051D397BE900D56699 /* FRBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRBook.swift; sourceTree = "<group>"; };
@@ -182,6 +185,17 @@
 		3A27F08A1FD9BE5800D84A57 /* FolioReaderUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolioReaderUserDefaults.swift; sourceTree = "<group>"; };
 		3A27F08B1FD9BE5800D84A57 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3AD5EEB81D9433C100E42810 /* FolioReaderWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolioReaderWebView.swift; sourceTree = "<group>"; };
+		559012BE43EFE8870977143C /* Pods-FolioReaderKit-FolioReaderKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FolioReaderKit-FolioReaderKitTests.debug.xcconfig"; path = "Target Support Files/Pods-FolioReaderKit-FolioReaderKitTests/Pods-FolioReaderKit-FolioReaderKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BC5DCACBD61DE6F86A5CD60 /* Pods-FolioReaderKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FolioReaderKit.debug.xcconfig"; path = "Target Support Files/Pods-FolioReaderKit/Pods-FolioReaderKit.debug.xcconfig"; sourceTree = "<group>"; };
+		799BEA2825659F6A006A8747 /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		799BEA2925659F6A006A8747 /* FontBlaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FontBlaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		799BEA2A25659F6A006A8747 /* MenuItemKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MenuItemKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		799BEA2B25659F6A006A8747 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		799BEA2C25659F6A006A8747 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		799BEA2D25659F6A006A8747 /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		799BEA2E25659F6A006A8747 /* ZFDragableModalTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZFDragableModalTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A000601CAD1B08947DBDF80F /* Pods_FolioReaderKit_FolioReaderKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FolioReaderKit_FolioReaderKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF118F5DFFD03B456E485891 /* Pods-FolioReaderKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FolioReaderKit.release.xcconfig"; path = "Target Support Files/Pods-FolioReaderKit/Pods-FolioReaderKit.release.xcconfig"; sourceTree = "<group>"; };
 		B0D6990B1D035FA2003B4CCD /* FolioReaderKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FolioReaderKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D6990E1D035FA2003B4CCD /* FolioReaderKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FolioReaderKit.h; sourceTree = "<group>"; };
 		B0D699101D035FA2003B4CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -196,6 +210,7 @@
 		B0D69CCD1D0388EF003B4CCD /* JSQWebViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSQWebViewController.framework; path = Carthage/Build/iOS/JSQWebViewController.framework; sourceTree = "<group>"; };
 		B0D69CCF1D0388EF003B4CCD /* ZFDragableModalTransition.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZFDragableModalTransition.framework; path = Carthage/Build/iOS/ZFDragableModalTransition.framework; sourceTree = "<group>"; };
 		B0D69CD01D0388EF003B4CCD /* ZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZipArchive.framework; path = Carthage/Build/iOS/ZipArchive.framework; sourceTree = "<group>"; };
+		BA94620182D834C80FAE7971 /* Pods-FolioReaderKit-FolioReaderKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FolioReaderKit-FolioReaderKitTests.release.xcconfig"; path = "Target Support Files/Pods-FolioReaderKit-FolioReaderKitTests/Pods-FolioReaderKit-FolioReaderKitTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,13 +218,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A65DDCC1DA73F8E0033C277 /* MenuItemKit.framework in Frameworks */,
-				B0D69CD11D0388EF003B4CCD /* AEXML.framework in Frameworks */,
-				B0D69CD21D0388EF003B4CCD /* FontBlaster.framework in Frameworks */,
-				B0D69CD51D0388EF003B4CCD /* ZFDragableModalTransition.framework in Frameworks */,
-				B0D69CD61D0388EF003B4CCD /* ZipArchive.framework in Frameworks */,
-				1A65DDD21DA744190033C277 /* Realm.framework in Frameworks */,
-				1A65DDD31DA744190033C277 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,9 +225,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A27F0C51FD9C31E00D84A57 /* Realm.framework in Frameworks */,
-				3A27F0C61FD9C31E00D84A57 /* RealmSwift.framework in Frameworks */,
 				B0D699161D035FA2003B4CCD /* FolioReaderKit.framework in Frameworks */,
+				5F62E45FE3AA341B23237E07 /* Pods_FolioReaderKit_FolioReaderKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,9 +236,15 @@
 		1A65DDCA1DA73F8C0033C277 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1A65DDD01DA744190033C277 /* Realm.framework */,
-				1A65DDD11DA744190033C277 /* RealmSwift.framework */,
-				1A65DDCB1DA73F8D0033C277 /* MenuItemKit.framework */,
+				799BEA2825659F6A006A8747 /* AEXML.framework */,
+				799BEA2925659F6A006A8747 /* FontBlaster.framework */,
+				799BEA2A25659F6A006A8747 /* MenuItemKit.framework */,
+				799BEA2B25659F6A006A8747 /* Realm.framework */,
+				799BEA2C25659F6A006A8747 /* RealmSwift.framework */,
+				799BEA2D25659F6A006A8747 /* SSZipArchive.framework */,
+				799BEA2E25659F6A006A8747 /* ZFDragableModalTransition.framework */,
+				1A5A2118839672562375AA85 /* Pods_FolioReaderKit.framework */,
+				A000601CAD1B08947DBDF80F /* Pods_FolioReaderKit_FolioReaderKitTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -360,6 +373,17 @@
 			path = Raleway;
 			sourceTree = "<group>";
 		};
+		7DA61F7A0D53384015F3A23F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BC5DCACBD61DE6F86A5CD60 /* Pods-FolioReaderKit.debug.xcconfig */,
+				AF118F5DFFD03B456E485891 /* Pods-FolioReaderKit.release.xcconfig */,
+				559012BE43EFE8870977143C /* Pods-FolioReaderKit-FolioReaderKitTests.debug.xcconfig */,
+				BA94620182D834C80FAE7971 /* Pods-FolioReaderKit-FolioReaderKitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B0D699011D035FA1003B4CCD = {
 			isa = PBXGroup;
 			children = (
@@ -368,6 +392,7 @@
 				B0D699191D035FA2003B4CCD /* FolioReaderKitTests */,
 				B0D6990C1D035FA2003B4CCD /* Products */,
 				1A65DDCA1DA73F8C0033C277 /* Frameworks */,
+				7DA61F7A0D53384015F3A23F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -459,10 +484,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0D6991F1D035FA2003B4CCD /* Build configuration list for PBXNativeTarget "FolioReaderKit" */;
 			buildPhases = (
+				62608068E147719602B6A50A /* [CP] Check Pods Manifest.lock */,
 				B0D699061D035FA2003B4CCD /* Sources */,
 				B0D699071D035FA2003B4CCD /* Frameworks */,
 				B0D699081D035FA2003B4CCD /* Headers */,
 				B0D699091D035FA2003B4CCD /* Resources */,
+				799BEA3D25659F6A006A8747 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -477,9 +504,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0D699221D035FA2003B4CCD /* Build configuration list for PBXNativeTarget "FolioReaderKitTests" */;
 			buildPhases = (
+				E1CCC4EF081BC2893C7B08D5 /* [CP] Check Pods Manifest.lock */,
 				B0D699111D035FA2003B4CCD /* Sources */,
 				B0D699121D035FA2003B4CCD /* Frameworks */,
 				B0D699131D035FA2003B4CCD /* Resources */,
+				BD8C9BEFDD7BA2E6F8885905 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -498,26 +527,29 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = FolioReader;
 				TargetAttributes = {
 					B0D6990A1D035FA2003B4CCD = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = K7ZAF9287X;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 					B0D699141D035FA2003B4CCD = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 32F2T8EJ6G;
+						DevelopmentTeam = K7ZAF9287X;
 						LastSwiftMigration = 0920;
 					};
 				};
 			};
 			buildConfigurationList = B0D699051D035FA1003B4CCD /* Build configuration list for PBXProject "FolioReaderKit" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B0D699011D035FA1003B4CCD;
 			productRefGroup = B0D6990C1D035FA2003B4CCD /* Products */;
@@ -566,6 +598,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62608068E147719602B6A50A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FolioReaderKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8C9BEFDD7BA2E6F8885905 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FolioReaderKit-FolioReaderKitTests/Pods-FolioReaderKit-FolioReaderKitTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
+				"${BUILT_PRODUCTS_DIR}/FontBlaster/FontBlaster.framework",
+				"${BUILT_PRODUCTS_DIR}/MenuItemKit/MenuItemKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+				"${BUILT_PRODUCTS_DIR}/ZFDragableModalTransition/ZFDragableModalTransition.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontBlaster.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MenuItemKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFDragableModalTransition.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FolioReaderKit-FolioReaderKitTests/Pods-FolioReaderKit-FolioReaderKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1CCC4EF081BC2893C7B08D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FolioReaderKit-FolioReaderKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B0D699061D035FA2003B4CCD /* Sources */ = {
@@ -670,6 +779,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -689,6 +799,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -714,7 +825,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -730,6 +841,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -749,6 +861,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -768,7 +881,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -782,62 +895,66 @@
 		};
 		B0D699201D035FA2003B4CCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BC5DCACBD61DE6F86A5CD60 /* Pods-FolioReaderKit.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = K7ZAF9287X;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = FolioReaderKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.folioreader.FolioReaderKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbita.FolioReaderKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		B0D699211D035FA2003B4CCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF118F5DFFD03B456E485891 /* Pods-FolioReaderKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = K7ZAF9287X;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = FolioReaderKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.folioreader.FolioReaderKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbita.FolioReaderKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		B0D699231D035FA2003B4CCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 559012BE43EFE8870977143C /* Pods-FolioReaderKit-FolioReaderKitTests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 32F2T8EJ6G;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				DEVELOPMENT_TEAM = K7ZAF9287X;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = FolioReaderKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.folioreader.FolioReaderKitTests;
@@ -849,12 +966,10 @@
 		};
 		B0D699241D035FA2003B4CCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA94620182D834C80FAE7971 /* Pods-FolioReaderKit-FolioReaderKitTests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 32F2T8EJ6G;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				DEVELOPMENT_TEAM = K7ZAF9287X;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = FolioReaderKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.folioreader.FolioReaderKitTests;

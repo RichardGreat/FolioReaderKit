@@ -11,7 +11,7 @@ import AEXML
 #if COCOAPODS
 import SSZipArchive
 #else
-import ZipArchive
+import Zip
 #endif
 
 class FREpubParser: NSObject, SSZipArchiveDelegate {
